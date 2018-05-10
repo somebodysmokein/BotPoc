@@ -1,0 +1,9 @@
+---
+- name: Create Machine
+  hosts: localhost
+  connection: local
+  tasks:
+  - name: Install Mysql
+    include_role:
+     name: geerlingguy.mysql
+   # when:{{installApplication}} == 'Mysql'
