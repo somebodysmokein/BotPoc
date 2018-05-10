@@ -1,6 +1,6 @@
 # Ansible Role: MySQL
 
-Installs and configures MySQL or MariaDB server on RHEL/CentOS or Debian/Ubuntu servers.
+Installs and configures MySQL server on RHEL/CentOS or Debian/Ubuntu servers.
 
 ## Requirements
 
